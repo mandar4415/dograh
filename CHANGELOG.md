@@ -1,5 +1,25 @@
 # Changelog
 
+## 1.48.0 (2026-09-22)
+
+<!-- Release notes generated using configuration in .github/release.yml at main -->
+
+## What's Changed
+### Features
+* feat: expose OTEL endpoint for telemetry by @a6kme in https://github.com/dograh-hq/dograh/pull/788
+* feat: enhance answer supervisor to listen even when playing initial greeting by @a6kme in https://github.com/dograh-hq/dograh/pull/790
+* feat: add tts caching for MiniMax TTS by @a6kme in https://github.com/dograh-hq/dograh/pull/796
+* feat(ui): config-driven event banner, SF Tech Week + Cloudonix by @sandeepvemu-dograh in https://github.com/dograh-hq/dograh/pull/801
+* feat: select median TTS cache audio from reserved candidates by @a6kme in https://github.com/dograh-hq/dograh/pull/803
+### Bug Fixes
+* fix: add multi locale in answer supervisor by @a6kme in https://github.com/dograh-hq/dograh/pull/782
+* fix: extract node variables when a text chat ends without a transition by @a6kme in https://github.com/dograh-hq/dograh/pull/783
+* fix: fix call response watchdog and user idle controller by @a6kme in https://github.com/dograh-hq/dograh/pull/802
+* fix: skip Telnyx recording lifecycle events instead of logging unexpected status updates by @a692570 in https://github.com/dograh-hq/dograh/pull/799
+
+
+**Full Changelog**: https://github.com/dograh-hq/dograh/compare/dograh-v1.47.0...dograh-v1.48.0
+
 ## 1.47.0 (2026-09-15)
 
 <!-- Release notes generated using configuration in .github/release.yml at main -->
